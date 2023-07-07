@@ -222,12 +222,13 @@
             </div>
         </div>
     </section>
-    <!-- day-3  --> 
-    <section class="bg-amber-100 2xl:px-28 px-1  py-2 container mx-auto w-full h-full">
+    <!-- day-3  -->
+    <section class="bg-amber-100 2xl:px-28 px-1  py-2 container mx-auto w-full h-full ">
         <center>
             <h1 class="text-white">DAY-3</h1>
         </center>
-        <div class=" min-h-[100vh] relative py-2 overflow-hidden" style="background-image: url(img/day-3\ bg-image.png);background-repeat: no-repeat;background-position: center;background-size: cover;">
+        <div class=" min-h-[100vh] relative py-2 overflow-hidden"
+            style="background-image: url(img/day-3\ bg-image.png);background-repeat: no-repeat;background-position: center;background-size: cover;">
             <header class="flex justify-between items-center py-2 px-2">
                 <!-- logo  -->
                 <a href="#">
@@ -288,7 +289,7 @@
         </div>
     </section>
     <!-- day-4  -->
-    <section class="bg-rose-100 2xl:px-28 py-2 container mx-auto w-full h-full">
+    <section class="bg-amber-400 2xl:px-28 py-2 container mx-auto w-full h-full ">
         <center>
             <h1 class="text-white py-4">DAY-4</h1>
         </center>
@@ -506,6 +507,249 @@
         </div>
 
     </section>
+    <!-- day-5  -->
+    <section class="2xl:px-28 py-2 container mx-auto w-full h-full" style="background-image: url(img/day-5\ bg-img.png);background-size: cover;background-repeat: no-repeat;">
+        <div class="flex flex-wrap lg:flex-nowrap gap-2 py-2 min-h-[100vh] w-full bg-white rounded-lg">
+            <!-- right  -->
+            <div class="xl:w-[30%] w-full bg-white flex flex-col md:flex-row lg:flex-col items-center justify-around border-r border-slate-200">
+                <!-- shipping  -->
+                <div class="flex flex-col md:flex-row lg:flex-col items-center gap-7 w-full">
+                    <div class="text-center">
+                        <div
+                            class="lg:w-[100px] w-[80px] h-[80px] lg:h-[100px] rounded-full bg-[#1CDFCB] flex justify-center items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="white" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>
+                        </div>
+                        <h1 class="font-bold text-black text-xl">shipping</h1>
+                    </div>
+                    <div class="bg-[#1CDFCB] rounded-full w-[55px] py-[2px] rotate-90 md:rotate-180 lg:rotate-90"></div>
+                    <p class="after:content-['']"></p>
+                </div>
+                <!-- personal details  -->
+                <div class="flex flex-col md:flex-row lg:flex-col items-center w-full  gap-7">
+                    <div class="flex flex-col justify-center items-center ">
+                        <div
+                            class="lg:w-[100px] w-[80px] h-[80px] lg:h-[100px] rounded-full bg-[#1CDFCB] flex justify-center items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="white" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>
+                        </div>
+                        <h1 class="font-bold text-black text-xl  w-full">personal details</h1>
+                    </div>
+                    <div class="bg-[#1CDFCB] rounded-full w-[55px] py-[2px] rotate-90 md:rotate-180 lg:rotate-90"></div>
+                    <p class="after:content-['']"></p>
+                </div>
+                <!-- payment -->
+                <div class="flex flex-col md:flex-row lg:flex-col items-center gap-7 w-full">
+                    <div class="text-center">
+                        <div
+                            class="lg:w-[100px] w-[80px] h-[80px] lg:h-[100px] rounded-full bg-[#6527BE] flex justify-center items-center ">
+                            <b class="font-bold text-white">3</b>
+                        </div>
+                        <h1 class="font-bold text-black text-xl">payment</h1>
+                    </div>
+                    <div class="bg-[#E0E0E0] rounded-full w-[55px] py-[2px] rotate-90 md:rotate-180 lg:rotate-90"></div>
+                    <p class="after:content-['']"></p>
+                </div>
+                <!-- Review -->
+                <div class="flex flex-col md:flex-row lg:flex-col items-center gap-7 w-full">
+                    <div class="text-center">
+                        <div
+                            class="lg:w-[100px] w-[80px] h-[80px] lg:h-[100px] rounded-full bg-[#E0E0E0] flex justify-center items-center ">
+                            <b class="font-bold text-white">4</b>
+                        </div>
+                        <h1 class="font-bold text-black text-xl">Review</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- middle part  -->
+            <div class="xl:w-full w-full bg-white flex flex-col items-center justify-evenly lg:px-4 px-2">
+                <h1 class="font-bold text-2xl lg:text-5xl w-full text-black text-start">payment</h1>
+                <!-- input fields  -->
+                <div class="flex flex-col items-center  gap-10 w-full">
+                    <!-- card type -->
+                    <div class="flex flex-col gap-2 w-full">
+                        <p>card Type</p>
+                        <div class="flex gap-4 lg:px-4">
+                            <div class="text-center px-4 py-4 w-1/2 border border-[#6527BE] rounded">
+                                <input type="radio" id="r1" name="pay" checked class="w-full">
+                                <label for="r1" class="text-black capitalize py-2">credit card</label>
+                            </div>
+                            <div class="text-center px-4 py-4 w-1/2 border border-[#EBEBEB] rounded">
+                                <input type="radio" id="r2" name="pay" class="w-full">
+                                <label for="r2" class="text-black capitalize py-2">credit card</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card number  -->
+                    <div class="relative w-full">
+                        <input type="text" placeholder="1234 - 1458 - 7962 - 7836"
+                            class=" border border-slate-200 rounded w-full px-2 py-2">
+                        <!-- visa icon  -->
+                        <div class="absolute top-[50%] right-[25px] translate-y-[-50%]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="black" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z" />
+                            </svg>
+
+                        </div>
+                        <!-- name label  -->
+                        <div
+                            class="absolute top-[0%] left-[25px] translate-y-[-50%] inline-block bg-white px-1 text-[#6527BE]">
+                            <p>Card Number</p>
+                        </div>
+                    </div>
+                    <!-- holder name -->
+                    <div class="relative w-full">
+                        <input type="text" placeholder="Enter Card Holder Name:"
+                            class=" border border-slate-200 rounded w-full px-2 py-2">
+                        <!-- visa icon  -->
+                        <div class="absolute top-[50%] right-[25px] translate-y-[-50%]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="black" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- expiry details & CVV -->
+                    <div class="flex gap-4 w-full">
+                        <div>
+                            <input type="date" class=" border border-slate-200 rounded w-full px-2 py-2">
+                        </div>
+
+                        <div class="relative">
+                            <input type="text" placeholder="CVV"
+                                class=" border border-slate-200 rounded w-full px-2 py-2">
+                            <div class="absolute top-[50%] right-[25px] translate-y-[-50%]">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- check box  -->
+                    <div class="flex items-center  gap-1 w-full">
+                        <div>
+                            <input type="checkbox" id="chk1" class="border border-black ">
+                        </div>
+                        <div for="chk1" class="text-[15px] ">save my card for future</div>
+                    </div>
+                </div>
+                <!-- pay btn  -->
+                <div class="flex items-center justify-between w-full">
+                    <div>
+                        <a href="#">&#8592; Back</a>
+                    </div>
+                    <div>
+                        <button class="bg-[#6527BE] text-white px-4 py-2 rounded">Proceed to pay</button>
+                    </div>
+                </div>
+            </div>
+            <!-- left  -->
+            <div class="xl:w-[40%] w-full bg-white flex flex-col items-center justify-evenly px-2 border-l border-solid-200">
+                <!-- bar  -->
+                <div class="flex justify-between items-center py-4 border-b w-full border-slate-200">
+                    <p>Order</p>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="black" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- selected product  -->
+                <div class="flex flex-col items-center w-full">
+                    <div class="flex gap-2 items-start py-4 border-b border-slate-200 w-full">
+                        <div>
+                            <img src="img/day-5 book img.png" alt="product image">
+                        </div>
+                        <div>
+                            <h1 class="capitalize font-semibold text-md text-blue-600">the fault in our stars</h1>
+                            <p class="text-thin text-slate-200">by John Green</p>
+                            <button class="uppercase font-semibold text-red-400">- remove</button>
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <input type="number" min="0" max="10" placeholder="0"
+                                        class="border border-slate-200 px-1">
+                                </div>
+                                <div class="test-black font-bold">
+                                    $300
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-2 items-start py-4 border-b border-slate-200 w-full">
+                        <div>
+                            <img src="img/day-5 book img.png" alt="product image">
+                        </div>
+                        <div>
+                            <h1 class="capitalize font-semibold text-md text-blue-600">the fault in our stars</h1>
+                            <p class="text-thin text-slate-200">by John Green</p>
+                            <button class="uppercase font-semibold text-red-400">- remove</button>
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <input type="number" min="0" max="10" placeholder="0"
+                                        class="border border-slate-200 px-1">
+                                </div>
+                                <div class="test-black font-bold">
+                                    $300
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-2 items-start py-4 border-b border-slate-200 w-full">
+                        <div>
+                            <img src="img/day-5 book img.png" alt="product image">
+                        </div>
+                        <div>
+                            <h1 class="capitalize font-semibold text-md text-blue-600">the fault in our stars</h1>
+                            <p class="text-thin text-slate-200">by John Green</p>
+                            <button class="uppercase font-semibold text-red-400">- remove</button>
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <input type="number" min="0" max="10" placeholder="0"
+                                        class="border border-slate-200 px-1">
+                                </div>
+                                <div class="test-black font-bold">
+                                    $300
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- billing and coupon  -->
+                <div class="flex flex-col items-center w-full gap-4">
+                    <a href="#" class="undeline uppercase font-bold text-[#6527BE] w-full">have a coupon code?</a>
+                    <div class="w-full">
+                        <div class="flex justify-between items-center w-full font-semibold text-slate-400 pb-4">
+                            <p>subtotal</p>
+                            <p>$300</p>
+                        </div>
+                        <div class="flex justify-between items-center w-full font-semibold text-slate-400 pb-4">
+                            <p>shipping</p>
+                            <p>0.00</p>
+                        </div>
+                        <div class="flex justify-between items-center w-full font-semibold text-slate-700">
+                            <p>Total</p>
+                            <p>$300</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>
